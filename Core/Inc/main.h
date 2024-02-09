@@ -71,6 +71,10 @@ void Error_Handler(void);
 #define EXT_RGB_LED_BLUE_GPIO_Port GPIOB
 #define ADC_VERSION_Pin GPIO_PIN_1
 #define ADC_VERSION_GPIO_Port GPIOB
+#define INT_RGB_LED_RED_Pin GPIO_PIN_8
+#define INT_RGB_LED_RED_GPIO_Port GPIOA
+#define INT_RGB_LED_GREEN_Pin GPIO_PIN_15
+#define INT_RGB_LED_GREEN_GPIO_Port GPIOA
 #define PWM5_Pin GPIO_PIN_3
 #define PWM5_GPIO_Port GPIOB
 #define EXT_RGB_LED_RED_Pin GPIO_PIN_4
